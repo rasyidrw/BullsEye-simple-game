@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         startNewGame()
     }
     
-    @IBAction func showAlert() {
+    @IBAction func showAlert() { 
         
         let difference = abs(targetValue - currentValue)
         var points = 100 - difference
